@@ -8,8 +8,6 @@ public class Movie {
     private List<Actor> actors;
 
 
-    public Movie() {
-    }
 
     public String getTitle() {
         return "\"" + title + "\"";

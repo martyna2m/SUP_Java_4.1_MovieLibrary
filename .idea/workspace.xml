@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Final corrections">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Movie.java" afterDir="false" />
+    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Add quotation marks to the getTitle method">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Director.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "martyna2m"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b669244d-8291-4e94-a87d-bfb239299424" />
+        <option name="url" value="https://github.com/martyna2m/SUP_Java_4.1_MovieLibrary.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -91,12 +104,32 @@
       <option name="project" value="LOCAL" />
       <updated>1698611784546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add quotation marks to the getTitle method">
+      <option name="closed" value="true" />
+      <created>1698612480347</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698612480347</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main Commit" />
     <MESSAGE value="Final corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final corrections" />
+    <MESSAGE value="Add quotation marks to the getTitle method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add quotation marks to the getTitle method" />
   </component>
 </project>

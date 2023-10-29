@@ -2,8 +2,6 @@ public class Actor {
     private String firstName;
     private String lastName;
 
-    public Actor() {
-    }
 
 
     public String getFirstName() {
