@@ -8,8 +8,8 @@ public class UserInputHelper {
         return scan.nextInt();
     }
 
-    public String getTextFromUser(){
-       return scan.nextLine();
+    public String getTextFromUser() {
+        return scan.nextLine();
     }
 
 }

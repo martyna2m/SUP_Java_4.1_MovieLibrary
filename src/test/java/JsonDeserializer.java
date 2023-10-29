@@ -11,13 +11,10 @@ public class JsonDeserializer {
 
 
     public static List<Movie> getMovieListFromJson(File file) throws IOException {
-    Movie[] moviesArray = new ObjectMapper().readValue(file, Movie[].class);
-    return Arrays.asList(moviesArray);
+        Movie[] moviesArray = new ObjectMapper().readValue(file, Movie[].class);
+        return Arrays.asList(moviesArray);
+
+    }
 
 }
-
-}
-
-
-
 

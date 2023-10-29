@@ -48,5 +48,3 @@ public class LibraryBrowser {
         } else System.out.println("Movies in which " + fullName + " starred: " + chosenMovies);
     }
 }
-
-

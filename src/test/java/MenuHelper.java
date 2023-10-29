@@ -2,7 +2,7 @@ public class MenuHelper {
 
     public static void displayMenu() {
         System.out.println("""
-                
+                                
                 What do you want to do? Choose an option from 1 to 3:
                 1 - Get movie titles produced in given period of time
                 2 - Display all information about random movie from the library
