@@ -12,7 +12,7 @@ public class Movie {
     }
 
     public String getTitle() {
-        return title;
+        return "\"" + title + "\"";
     }
 
 
@@ -42,6 +42,6 @@ public class Movie {
                 "year: " + year + "\n" +
                 "director: " + director + "\n" +
                 "genre: " + genre + "\n" +
-                "actors: " + actors.toString();
+                "actors: " + actors.toString().replace("[", "").replace("]", "");
     }
 }
