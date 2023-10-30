@@ -7,14 +7,11 @@ import java.util.List;
 
 public class JsonDeserializer {
 
-    ObjectMapper mapper = new ObjectMapper();
+    static ObjectMapper mapper = new ObjectMapper();
 
 
     public static List<Movie> getMovieListFromJson(File file) throws IOException {
-        Movie[] moviesArray = new ObjectMapper().readValue(file, Movie[].class);
-        return Arrays.asList(moviesArray);
+        return Arrays.asList(mapper.readValue(file, Movie[].class));
 
     }
-
 }
-

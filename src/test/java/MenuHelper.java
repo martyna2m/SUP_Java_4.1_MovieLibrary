@@ -11,7 +11,7 @@ public class MenuHelper {
     }
 
     public static void printInstruction1() {
-        System.out.println("Please put in the range of dates for which you want to see the movies produced, e.g. 1990 - 1995");
+        System.out.println("Please put in the range of dates (years separated by spaces) for which you want to see the movies produced, e.g. 1990 1995");
     }
 
     public static void printInstruction3() {
@@ -23,6 +23,6 @@ public class MenuHelper {
     }
 
     public static void printAlert() {
-        System.out.println("No movies that meet conditions were found");
+        System.out.println("No movies that meet conditions were found.");
     }
 }

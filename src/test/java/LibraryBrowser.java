@@ -45,6 +45,6 @@ public class LibraryBrowser {
 
         if (chosenMovies.isEmpty()) {
             MenuHelper.printAlert();
-        } else System.out.println("Movies in which " + fullName + " starred: " + chosenMovies);
+        } else System.out.println("Movies that " + fullName + " starred in: " + chosenMovies);
     }
 }

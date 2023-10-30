@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Add quotation marks to the getTitle method">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Director.java" afterDir="false" />
+    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Remove redundant constructors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MenuHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698612480347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove redundant constructors">
+      <option name="closed" value="true" />
+      <created>1698613928224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698613928224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +141,7 @@
     <MESSAGE value="Main Commit" />
     <MESSAGE value="Final corrections" />
     <MESSAGE value="Add quotation marks to the getTitle method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add quotation marks to the getTitle method" />
+    <MESSAGE value="Remove redundant constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove redundant constructors" />
   </component>
 </project>
