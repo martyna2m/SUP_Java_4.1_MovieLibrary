@@ -10,7 +10,7 @@ public class JsonDeserializer {
     static ObjectMapper mapper = new ObjectMapper();
 
 
-    public static List<Movie> getMovieListFromJson(File file) throws IOException {
+    public static List<Movie> getMovieLibraryFromJson(File file) throws IOException {
         return Arrays.asList(mapper.readValue(file, Movie[].class));
 
     }

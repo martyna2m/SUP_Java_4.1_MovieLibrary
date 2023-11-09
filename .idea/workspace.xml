@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Remove redundant constructors">
+    <list default="true" id="19d5fa45-adf8-4690-8d04-8acb9039b95a" name="Changes" comment="Corrections">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MenuHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MenuHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MovieLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MovieLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +30,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "martyna2m"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;martyna2m&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,14 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/mmichalska/IdeaProjects/SUP_Java_4.1_MovieLibrary/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mmichalska/IdeaProjects/SUP_Java_4.1_MovieLibrary/src/test/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mmichalska\IdeaProjects\SUP_Java_4.1_MovieLibrary\src\test\resources" />
@@ -123,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698613928224</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Shorten json deserializer">
+      <option name="closed" value="true" />
+      <created>1698652937487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698652937487</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrections">
+      <option name="closed" value="true" />
+      <created>1698652984283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698652984283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +162,8 @@
     <MESSAGE value="Final corrections" />
     <MESSAGE value="Add quotation marks to the getTitle method" />
     <MESSAGE value="Remove redundant constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove redundant constructors" />
+    <MESSAGE value="Shorten json deserializer" />
+    <MESSAGE value="Corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections" />
   </component>
 </project>

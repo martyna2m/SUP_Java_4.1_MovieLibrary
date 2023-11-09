@@ -1,18 +1,7 @@
-public class Director {
-    private String firstName;
-    private String lastName;
-
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
+public class Director extends Person {
     @Override
     public String toString() {
-        return firstName + " " + lastName;
+        return getFirstName() + " " + getLastName();
     }
+
 }

@@ -1,17 +1,15 @@
-import java.io.File;
-import java.io.IOException;
 import java.util.List;
 
 public class MovieLibrary {
 
-    private List<Movie> movieLibrary = JsonDeserializer.getMovieListFromJson(new File("src/test/resources/movies_library_1.json"));
+    private List<Movie> movieList;
 
-    public MovieLibrary() throws IOException {
+    public MovieLibrary(List<Movie> movieList) {
+        this.movieList = movieList;
     }
 
-    public List<Movie> getMovieLibrary() {
-        return movieLibrary;
+    public List<Movie> getMovieList() {
+        return movieList;
     }
-
 }
 
